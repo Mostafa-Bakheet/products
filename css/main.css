@@ -1,0 +1,81 @@
+    * {
+        font-family: 'Cairo', sans-serif;
+        direction: rtl;
+        transition: all 0.5s;
+    }
+    
+    input::placeholder {
+        font-weight: 900;
+    }
+    
+    #btncreate {
+        color: white;
+        font-weight: 900;
+    }
+    
+    #DelBTN .none {
+        display: none;
+    }
+    
+    #result {
+        width: 17%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    tr {
+        border-color: inherit;
+        border-style: solid;
+        border-width: 0;
+    }
+    
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    
+    @media (max-width: 770px) {
+        table,
+        th,
+        td {
+            font-size: 11px;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        #btn {
+            font-size: 10px;
+        }
+    }
+    
+    @media (max-width: 635px) {
+        table,
+        th,
+        td {
+            font-size: 9px;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        #btn {
+            font-size: 8px;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        table,
+        th,
+        td {
+            font-size: 5px;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        #btn {
+            font-size: 7px;
+        }
+    }
