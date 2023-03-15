@@ -42,6 +42,23 @@
     }
     
     @media (max-width: 770px) {
+        #cost {
+            flex-direction: column;
+        }
+        #price,
+        #tax,
+        #Tcost,
+        #discound,
+        #total {
+            flex: auto;
+            width: auto;
+        }
+        #tax,
+        #Tcost,
+        #discound,
+        #total {
+            margin-top: 1.5rem;
+        }
         table,
         th,
         td {
@@ -76,6 +93,19 @@
             padding: 5px;
         }
         #btn {
-            font-size: 7px;
+            font-size: 6px;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        table,
+        th,
+        td {
+            font-size: 3px;
+            border-collapse: collapse;
+            padding: 4px;
+        }
+        #btn {
+            font-size: 3px;
         }
     }
